@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/1f707df0d7.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/udemy-favicon.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Speech Text Reader by Esther White</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>קריאת טקסט לדיבור</h1>
+    <div class="page-language">
+      <div class="flag"><a href="index.html"><img src="/img/flag-united-states.png" alt="US-flag"></a></div>
+      <div class="flag"><a href="heb-page.html"><img src="/img/flag-israel.png" alt="IL-flag"></a></div>
+      <div class="flag"><a href="bg-page.html"><img src="/img/flag-bulgaria.png" alt="BG-flag"></a></div>
+    </div>
+    <button id="toggle" class="btn btn-toggle heb-page">
+      פתח תיבת הטקסט
+    </button>
+    <div id="text-box" class="text-box">
+      <div id="close" class="close heb-page">X</div>
+      <h3 style="direction: rtl">בחירת קול, לעברית נא לבחור שפה תומכת -'Hebrew' </h3>
+      <select class="heb-page" id="voices"></select>
+      <textarea style="direction: rtl" id="text" placeholder="הזן טקסט לקריאה..."></textarea>
+      <button id="read" class="btn heb-page">קרא הטקסט</button>
+    </div>
+    <main></main>
+  </div>
+  <div class="footer">
+    <div class="info">
+      <p>created by Esther White<a class="my-username" href="https://esteecodes.com/" target="_blank">{esteecodes}</a>
+      </p>
+    </div>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/esteecodes/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/esteecodes" target="_blank"><i class="fa-brands fa-github-square"></i></a>
+      <a href="https://www.youtube.com/c/EsteeCodes" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.facebook.com/esteecodes" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/esteecodes/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/esteecodes" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+    </div>
+  </div>
+  <script src="script-heb.js"></script>
+</body>
+
+</html>
