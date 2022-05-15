@@ -1,4 +1,4 @@
-<h1><a href="" target="_blank">Speech Text Reader</a></h1>
+<h1><a href="https://esteecodes.github.io/Speech-Text-Reader/" target="_blank">Speech Text Reader</a></h1>
 
 <h2>Text to speech app for non-verbal people.</h2> <p>Pre-made button options and custom text to speech. <br> This project uses the Web Speech API</p>
 
