@@ -1,5 +1,5 @@
 <h1><a href="" target="_blank">Speech Text Reader</a></h1>
-<h2> Web Speech API | Speech Synthesis </h2>
+<h2> Web Speech API | SpeechSynthesis </h2>
 <p> This project is part of the<strong>'20 Web Projects With Vanilla JavaScript'</strong><br>
 course by Brad Traversy on Udemy, which I did around - May 15, 2022. <br>It is project <strong>13: Speech Text Reader | Speech Synthesis</strong></p>
 
