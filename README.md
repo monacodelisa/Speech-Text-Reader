@@ -6,7 +6,7 @@
 course by Brad Traversy on Udemy, which I did around - May 15, 2022.<br>
 It is project 13: Speech Text Reader | Speech Synthesis</p>
 
-<h2>I extended the Project and made it Multi-lingual</h2>
+<h2>I extended the functionality and made it Multi-lingual</h2>
 
 <p>The original version of the project only supports English.<br> I added two additional languages - <strong>Hebrew</strong> and <strong>Bulgarian</strong></p>
 
