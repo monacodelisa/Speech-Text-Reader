@@ -192,8 +192,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 132vh;
   width: 101vw;
   height: 3rem;
   padding-top: 1rem;
